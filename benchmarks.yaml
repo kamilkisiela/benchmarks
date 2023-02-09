@@ -46,6 +46,14 @@
   run:
     cmd: node
     args: ["index.js"]
+- id: whatwg-envelop
+  name: WhatWG-Server + Envelop
+  url: https://github.com/ardatan/whatwg
+  lang: Node.js
+  server: Http
+  run:
+    cmd: node
+    args: ["index.js"]
 - id: apollo
   name: apollo
   url: https://github.com/apollographql/apollo-server
