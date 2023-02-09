@@ -14,14 +14,6 @@
   run:
     cmd: node
     args: ["index.js"]
-- id: mercurius
-  name: Mercurius
-  url: https://github.com/mercurius-js/mercurius
-  lang: Node.js
-  server: Fastify
-  run:
-    cmd: node
-    args: ["index.js"]
 - id: graphql-yoga
   name: graphql-yoga
   url: https://github.com/dotansimha/graphql-yoga
@@ -30,6 +22,30 @@
   run:
     cmd: node
     args: ["--no-warnings", "index.js"]
+- id: mercurius
+  name: Mercurius
+  url: https://github.com/mercurius-js/mercurius
+  lang: Node.js
+  server: Fastify
+  run:
+    cmd: node
+    args: ["index.js"]
+- id: fastify
+  name: Fastify
+  url: https://github.com/fastify/fastify
+  lang: Node.js
+  server: Fastify
+  run:
+    cmd: node
+    args: ["index.js"]
+- id: whatwg-server
+  name: WhatWG-Server
+  url: https://github.com/ardatan/whatwg
+  lang: Node.js
+  server: Http
+  run:
+    cmd: node
+    args: ["index.js"]
 - id: apollo
   name: apollo
   url: https://github.com/apollographql/apollo-server
