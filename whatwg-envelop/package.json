@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@whatwg-node/server": "0.6.6-alpha-20230208150005-0bd8aaf",
+    "@envelop/core": "3.0.4",
+    "@graphql-tools/executor": "0.0.14",
+    "graphql": "16.6.0",
+    "graphql-yoga": "3.6.0-alpha-20230209083600-bd8a4426"
+  },
+  "type": "module"
+}
