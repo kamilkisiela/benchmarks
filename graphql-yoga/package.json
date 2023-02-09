@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "graphql-yoga": "3.6.0-alpha-20230208151338-01d17a68"
+    "graphql-yoga": "3.6.0-alpha-20230209083600-bd8a4426"
   },
   "type": "module"
 }
