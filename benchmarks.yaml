@@ -54,6 +54,14 @@
   run:
     cmd: node
     args: ["index.js"]
+- id: whatwg-graphql-js
+  name: WhatWG-Server + GraphQL-JS (lru)
+  url: https://github.com/ardatan/whatwg
+  lang: Node.js
+  server: Http
+  run:
+    cmd: node
+    args: ["index.js"]
 - id: apollo
   name: apollo
   url: https://github.com/apollographql/apollo-server

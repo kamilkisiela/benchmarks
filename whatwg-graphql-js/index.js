@@ -3,6 +3,7 @@ import { cpus } from "os";
 import { createServerAdapter, Response } from '@whatwg-node/server'
 import { createSchema } from "graphql-yoga";
 import URL from "fast-url-parser";
+import { lru } from "tiny-lru";
 import { parse, validate, execute } from 'graphql';
 import { createServer } from "node:http";
 
@@ -26,8 +27,8 @@ const schema = createSchema({
 })
 
 
-const parseMap = new Map();
-const validateMap = new Map();
+const parseMap = lru(20);
+const validateMap = lru(20);
 
 function cachedParse(query) {
   const cacheEntry = parseMap.get(query);
