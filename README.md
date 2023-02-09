@@ -20,11 +20,13 @@ The API is served over HTTP using a common web server and load tested using [bom
 
 | Name                          | Language      | Server          | Latency avg      | Requests      |
 | ----------------------------  | ------------- | --------------- | ---------------- | ------------- |
-| [Fastify](https://github.com/fastify/fastify) | Node.js | Fastify | 7.14ms | 14kps |
-| [WhatWG-Server](https://github.com/ardatan/whatwg) | Node.js | Http | 8.25ms | 12kps |
-| [Mercurius](https://github.com/mercurius-js/mercurius) | Node.js | Fastify | 9.76ms | 10kps |
-| [WhatWG-Server + Envelop](https://github.com/ardatan/whatwg) | Node.js | Http | 12.66ms | 7.9kps |
-| [graphql-yoga](https://github.com/dotansimha/graphql-yoga) | Node.js | http | 17.13ms | 5.8kps |
-| [graphql-jit](https://github.com/zalando-incubator/graphql-jit) | Node.js | http | 19.96ms | 5.0kps |
-| [apollo](https://github.com/apollographql/apollo-server) | Node.js | Express | 40.72ms | 2.4kps |
-| [graphql-js](https://github.com/graphql/graphql-js) | Node.js | http | 48.35ms | 2.1kps |
+| [Fastify](https://github.com/fastify/fastify) | Node.js | Fastify | 5.80ms | 17kps |
+| [WhatWG-Server](https://github.com/ardatan/whatwg) | Node.js | Http | 6.58ms | 15kps |
+| [Mercurius](https://github.com/mercurius-js/mercurius) | Node.js | Fastify | 8.06ms | 12kps |
+| [WhatWG-Server + GraphQL-JS (lru)](https://github.com/ardatan/whatwg) | Node.js | Http | 9.01ms | 11kps |
+| [WhatWG-Server + Envelop](https://github.com/ardatan/whatwg) | Node.js | Http | 10.56ms | 9.5kps |
+| [Fastify + GraphQL-JS (lru)](https://github.com/ardatan/whatwg) | Node.js | Http | 11.31ms | 8.8kps |
+| [graphql-yoga](https://github.com/dotansimha/graphql-yoga) | Node.js | http | 15.20ms | 6.6kps |
+| [graphql-jit](https://github.com/zalando-incubator/graphql-jit) | Node.js | http | 17.78ms | 5.6kps |
+| [apollo](https://github.com/apollographql/apollo-server) | Node.js | Express | 32.95ms | 3.0kps |
+| [graphql-js](https://github.com/graphql/graphql-js) | Node.js | http | 41.96ms | 2.4kps |
